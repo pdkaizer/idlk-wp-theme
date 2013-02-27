@@ -1,0 +1,233 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"none"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/peterkaizer/Dropbox/_sites/idlk-design/inc/custom-header.php",
+		"/Users/peterkaizer/Dropbox/CRS/responsive-convio-wrapper/css/bootstrap.min.css",
+		"/Users/peterkaizer/Dropbox/html frameworks/html5-boilerplate/index.html",
+		"/Users/peterkaizer/Dropbox/CRS/CRS-bootstrap-framework/.gitignore",
+		"/Volumes/internet$/_sites/crs/microfinance/index.cfm",
+		"/Volumes/internet$/_sites/crs/act/social-networks/index-old.cfm",
+		"/Volumes/internet$/_sites/crs/_styles/social.css",
+		"/Volumes/internet$/_sites/crs/newsroom/egan-fellowship/_submit.cfm",
+		"/Volumes/internet$/_sites/crs/newsroom/egan-fellowship/apply.cfm",
+		"/Users/peterkaizer/Dropbox/CRS/email-marketing/FIF 2013/fif-2013-02.html",
+		"/Users/peterkaizer/Dropbox/CRS/email-marketing/2013 CRS Rice Bowl/2013-rice-bowl-feb.html",
+		"/Users/peterkaizer/Dropbox/CRS/email-marketing/carolyn-sig-block.txt",
+		"/Users/peterkaizer/Dropbox/CRS/email-marketing/2012-10-all-souls-day.txt",
+		"/Users/peterkaizer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/peterkaizer/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/contact.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/about.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_layouts/page.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-02-08-articles-february-8-2013.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/work.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-02-02-articles-february-2-2013.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-01-27-articles-january-27-2013.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-01-19-articles-january-19-2013.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_layouts/post.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/journal/index.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/header.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/index.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_config.yml",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/footer.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/css/pdk-2013.css",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/footer-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_layouts/default-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/index-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/header-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/comments.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-01-14-bacon-and-cheddar-scones.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-02-02-articles-feruary-2-2013.md",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_layouts/default.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/comments-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/header-new.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_layouts/post-old.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/comments-new.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_includes/footer-new.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/css/pdk-style.css",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/404.html",
+		"/Users/peterkaizer/Dropbox/_sites/pdkaizer.github.com/_posts/2013-01-21-moving-on-to-jekyll.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"’",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}

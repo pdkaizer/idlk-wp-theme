@@ -1,0 +1,68 @@
+/*
+Theme Name: IDLK Design
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 1.0
+
+*/
+
+/*
+colors:;
+body bg: #111d30
+header bg: #d5e461
+footer bg: #3d6fa3
+nave tab active: #c453a1
+
+*/
+
+@import url(bootstrap.min.css);
+
+body {
+	background-color: #111d30;
+}
+
+.page {
+	background-color: #ffffff;
+	padding-top: 15px;
+}
+
+.tag {
+	background-color: #3d6fa3;
+}
+
+header {
+	background-color: #d5e461;
+	padding-bottom: 0;
+}
+
+nav {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+	text-align: center;
+	background-color: #111d30;
+	padding: 10px;
+}
+
+nav a {
+	color: #ffffff;
+}
+
+footer {
+	background-color: #3d6fa3;
+	color: #ffffff;
+	padding: 10px;
+}
+

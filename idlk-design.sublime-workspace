@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"n",
 				"none"
 			],
@@ -18,10 +50,6 @@
 			[
 				"h",
 				"height"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"d",
@@ -39,13 +67,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "static/index.html",
+			"settings":
+			{
+				"buffer_size": 4041,
+				"line_ending": "Unix",
+				"name": "HTML: starter file"
+			}
+		},
+		{
+			"file": "static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1090,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 247.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"Gist: Open Gist"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -63,7 +120,7 @@
 				"Code Folding: Unfold All"
 			]
 		],
-		"width": 449.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -80,6 +137,15 @@
 	},
 	"file_history":
 	[
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/.gitignore",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/style.css",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/license.txt",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/css/style.css",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/header.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/functions.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/footer.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/index.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/layouts/sidebar-content.css",
 		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/content.php",
 		"/Users/peterkaizer/Dropbox/_sites/idlk-design/inc/custom-header.php",
 		"/Users/peterkaizer/Dropbox/CRS/responsive-convio-wrapper/css/bootstrap.min.css",
@@ -164,8 +230,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "static/index.html",
+					"settings":
+					{
+						"buffer_size": 4041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2880,
+								2880
+							]
+						],
+						"settings":
+						{
+							"gist_description": "HTML: starter file",
+							"gist_filename": "HTML: starter file",
+							"gist_html_url": "https://gist.github.com/d9f3756b354c745b3fc5",
+							"gist_url": "https://api.github.com/gists/d9f3756b354c745b3fc5",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 559.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

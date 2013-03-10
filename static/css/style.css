@@ -3,7 +3,7 @@ Theme Name: IDLK Design
 Theme URI: 
 Author: 
 Author URI: 
-Description: 
+Description: Izzy Kaizer's Wordpress Design site
 Version: 1.0
 
 */
@@ -17,11 +17,14 @@ nave tab active: #c453a1
 
 */
 
+/*
+Fonts:
+futura-pt-condensed
+proxima-nova-alt;
+*/
+
 @import url(bootstrap.min.css);
 
-body {
-	background-color: #111d30;
-}
 
 .page {
 	background-color: #ffffff;
@@ -37,11 +40,6 @@ body {
 	color: #ffffff;
 }
 
-.logo h1 {
-  font-family: "adage-script";
-  font-size: 60px;
-  letter-spacing: 5px;
-}
 
 .blue {
 	color: #3d6fa3;
@@ -57,8 +55,12 @@ header {
 	padding-bottom: 0;
 }
 
+.search form {
+	margin-top: 20px;
+}
+
 nav {
-	margin-top: 70px;
+	margin-top: 110px;
 	margin-bottom: 0;
 }
 
@@ -86,6 +88,22 @@ nav a:hover {
 	color: #ffffff;
 	display: block;
 	padding: 10px 20px 10px 20px;
+}
+
+.work-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.work-grid li {
+	float:left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.work-grid img {
+	border: solid 4px #d5e461;
 }
 
 

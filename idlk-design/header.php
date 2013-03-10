@@ -19,24 +19,30 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
+    <script type="text/javascript" src="http://use.typekit.net/hhx6iat.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<?php do_action( 'before' ); ?>
-	<header id="masthead" class="site-header" role="banner">
-		<hgroup>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
+<body>
 
-		<nav role="navigation" class="site-navigation main-navigation">
-			<h1 class="assistive-text"><?php _e( 'Menu', 'idlk_design' ); ?></h1>
-			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'idlk_design' ); ?>"><?php _e( 'Skip to content', 'idlk_design' ); ?></a></div>
+  <div class="container">
 
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- .site-navigation .main-navigation -->
-	</header><!-- #masthead .site-header -->
+  <header class="row">
+    <div class="span3 logo">
+      <a href="/"><img src="<?php bloginfo('template_url'); ?>/images/izzy-logo.png" alt="Izzy Kaizer"></a>
+    </div>
 
-	<div id="main" class="site-main">
+    <div class="span9">
+      <nav>
+        <ul>
+          <li><a href="/about-me">about me</a></li>
+          <li><a href="/my-work">my work</a></li>
+          <li><a href="/contact-me">contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+

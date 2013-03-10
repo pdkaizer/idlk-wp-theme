@@ -9,17 +9,17 @@
  */
 ?>
 
-	</div><!-- #main .site-main -->
+  <footer class="row">
+     <div class="span3"><p style=margin-top:4px;>&copy; 2013 Izzy Kaizer</p></div>
+     <div class="span2 offset6"><a href="http://www.linkedin.com/pub/izzy-kaizer/65/78b/580"><img src="<?php bloginfo('template_url'); ?>/images/linkedin-32x32.png" alt="Find me on LinkedIn"></a> <a href="http://twitter.com/izzy42290"><img src="<?php bloginfo('template_url'); ?>/images/twitter-32x32.png" alt="Find me on Twitter" style="margin-left:20px;"></a></div>
+  </footer>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'idlk_design_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'idlk_design' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'idlk_design' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'idlk_design' ), 'IDLK Design', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon .site-footer -->
-</div><!-- #page .hfeed .site -->
+
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
 
 <?php wp_footer(); ?>
 

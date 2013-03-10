@@ -127,6 +127,26 @@ function idlk_design_widgets_init() {
 }
 add_action( 'widgets_init', 'idlk_design_widgets_init' );
 
+
+/**
+ * Register custom post type
+ *
+ * @since IDLK Design 1.0
+ */
+
+register_post_type('Home page slider', array(
+	'label' => __('Home page slider'),
+	'singular_label' => __('Home page slider'),
+	'public' => true,
+	'show_ui' => true,
+	'capability_type' => 'post',
+	'hierarchical' => false,
+	'rewrite' => true,
+	'query_var' => false,
+	'supports' => array( 'title', 'editor', 'comments', 'excerpt', 'custom-fields', 'thumbnail' ),
+));
+
+
 /**
  * Enqueue scripts and styles
  */
@@ -145,7 +165,3 @@ function idlk_design_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'idlk_design_scripts' );
 
-/**
- * Implement the Custom Header feature
- */
-//require( get_template_directory() . '/inc/custom-header.php' );

@@ -15,5 +15,6 @@
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'idlk_design' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
+	
 	<?php edit_post_link( __( 'Edit', 'idlk_design' ), '<span class="edit-link">', '</span>' ); ?>
 

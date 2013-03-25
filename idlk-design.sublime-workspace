@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding"
+			],
+			[
 				"pa",
 				"padding-bottom"
 			],
@@ -68,19 +72,34 @@
 	"buffers":
 	[
 		{
-			"file": "static/index.html",
+			"file": "idlk-design/welcome-page.php",
 			"settings":
 			{
-				"buffer_size": 4041,
-				"line_ending": "Unix",
-				"name": "HTML: starter file"
+				"buffer_size": 1580,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "static/css/style.css",
+			"file": "idlk-design/rotator.txt",
 			"settings":
 			{
-				"buffer_size": 1090,
+				"buffer_size": 2371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "idlk-design/portfolio-page.php",
+			"settings":
+			{
+				"buffer_size": 1271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/work.html",
+			"settings":
+			{
+				"buffer_size": 3547,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,6 +110,10 @@
 		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"l",
+				"Snippet: Lorem ipsum"
+			],
 			[
 				"lo",
 				"Snippet: Lorem ipsum"
@@ -137,16 +160,26 @@
 	},
 	"file_history":
 	[
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/.gitignore",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/style.css",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/license.txt",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/css/style.css",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/header.php",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/functions.php",
 		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/footer.php",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/index.php",
-		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/layouts/sidebar-content.css",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/work.html",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/portfolio-page.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/css/style.css",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/style.css",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/content-page.php",
 		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/content.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/about.html",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/static/index.html",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/index.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/welcome-page.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/functions.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/content-single.php",
+		"/Users/peterkaizer/Dropbox/_sites/so-charmed-wp-theme/page-brooches.php",
+		"/Users/peterkaizer/Dropbox/_sites/ABC-WP-Theme/functions.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/page.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/header.php",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/.gitignore",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/license.txt",
+		"/Users/peterkaizer/Dropbox/_sites/idlk-wp-theme/idlk-design/layouts/sidebar-content.css",
 		"/Users/peterkaizer/Dropbox/_sites/idlk-design/inc/custom-header.php",
 		"/Users/peterkaizer/Dropbox/CRS/responsive-convio-wrapper/css/bootstrap.min.css",
 		"/Users/peterkaizer/Dropbox/html frameworks/html5-boilerplate/index.html",
@@ -230,64 +263,114 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "static/index.html",
+					"file": "idlk-design/welcome-page.php",
 					"settings":
 					{
-						"buffer_size": 4041,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2880,
-								2880
+								1556,
+								1556
 							]
 						],
 						"settings":
 						{
-							"gist_description": "HTML: starter file",
-							"gist_filename": "HTML: starter file",
-							"gist_html_url": "https://gist.github.com/d9f3756b354c745b3fc5",
-							"gist_url": "https://api.github.com/gists/d9f3756b354c745b3fc5",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 559.0,
+						"translation.y": 79.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "static/css/style.css",
+					"file": "idlk-design/rotator.txt",
 					"settings":
 					{
-						"buffer_size": 1090,
+						"buffer_size": 2371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								873,
-								873
+								1859,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 544.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "idlk-design/portfolio-page.php",
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "static/work.html",
+					"settings":
+					{
+						"buffer_size": 3547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 366.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -11,13 +11,36 @@ get_header(); ?>
 <div class="row page">
     <div class="span7 offset3">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+	<h1 class="blue"><?php the_title();?></h1>
+	<?php the_content();?>
+	<?php endwhile; ?>
 
-					<?php get_template_part( 'content', 'page' ); ?>
+    <ul class="work-grid">
+    <?php $temp_query = $wp_query; ?>
+	<?php query_posts('category_name=Portfolio'); ?>
+	<?php while (have_posts()) : the_post(); ?>	
+      <li><a href="#<?php the_title(); ?>" data-toggle="modal"><?php the_post_thumbnail('small'); ?></a><br />
+	  <a href="#<?php the_permalink() ?>" data-toggle="modal"><?php the_title(); ?></a>
+      </li>
+	<?php endwhile; ?>
+    </ul>
+		
+<?php $temp_query = $wp_query; ?>
+<?php query_posts('category_name=Portfolio'); ?>
+<?php while (have_posts()) : the_post(); ?>	
 
-					<?php comments_template( '', true ); ?>
-
-				<?php endwhile; // end of the loop. ?>
+<!-- Modal -->
+<div id="<?php the_title(); ?>" class="modal hide fade" tabindex="-1" role="dialog">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 class="blue" id="myModalLabel"></h3>
+  </div>
+  <div class="modal-body">
+	<?php the_content(); ?>
+  </div>
+</div>
+<?php endwhile; ?>
 
 		
 	</div>

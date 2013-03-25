@@ -17,7 +17,14 @@
 
 </div>
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	    $('.carousel').carousel({
+	  		interval: 5000	
+	  	})
+	});
+</script>
 </body>
 </html>
 

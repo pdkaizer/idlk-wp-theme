@@ -1,0 +1,63 @@
+<div id="myCarousel" class="carousel slide">
+			 <div class="carousel-inner">
+			  <?php 
+			   $the_query = new WP_Query(array(
+			    'post_type' => 'rotator', 
+			    'tag' => 'homepage', 
+			    'posts_per_page' => 1, 
+			    )); 
+			   while ( $the_query->have_posts() ) : 
+			   $the_query->the_post();
+			  ?>
+				   <div class="item active">
+				    <?php if (post_custom('main_image')) { ?>
+				           <img alt="<?php the_title(); ?>" src="<?php echo get_post_meta($post->ID, 'main_image',true) ?>" class="rotator-img" />
+				    <?php } ?>
+					    <div class="carousel-caption">
+						     <a href="<?php echo get_post_meta($post->ID, 'main_link',true) ?>" target="_blank"><h2><?php the_title();?></h2></a>
+						     <?php the_excerpt();?>
+					    </div>
+				   </div><!-- item active -->
+			  <?php 
+			   endwhile; 
+			   wp_reset_postdata();
+			  ?>
+			  <?php 
+			   $the_query = new WP_Query(array(
+			    'post_type' => 'rotator', 
+			    'tag' => 'homepage',  
+			    'offset' => 1 
+			    )); 
+			   while ( $the_query->have_posts() ) : 
+			   $the_query->the_post();
+			  ?>
+				   <div class="item">
+				    <?php if (post_custom('main_image')) { ?>
+				           <img alt="<?php the_title(); ?>" src="<?php echo get_post_meta($post->ID, 'main_image',true) ?>" class="rotator-img" />
+				    <?php } ?>
+					    <div class="carousel-caption">
+						     <a href="<?php echo get_post_meta($post->ID, 'main_link',true) ?>" target="_blank"><h2><?php the_title();?></h2></a>
+						     <?php the_excerpt();?>
+					    </div>
+				   </div><!-- item -->
+			  <?php 
+			   endwhile; 
+			   wp_reset_postdata();
+			  ?>
+			 </div><!-- carousel-inner -->
+		 <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+		 <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+</div><!-- #myCarousel -->
+
+/* I created a custom post for this particular item titled "rotator". Inside that I was able to control how everything came through using custom fields. */
+
+/* This code goes in the footer DIRECTLY AFTER the bootstrap.min.js call: 
+
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script> <!-- Bootstrap.min.js -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	    $('.carousel').carousel({
+	  		interval: 5000	
+	  	})
+	});
+</script>

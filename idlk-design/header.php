@@ -22,6 +22,8 @@
     <script type="text/javascript" src="http://use.typekit.net/hhx6iat.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/genericons.css">
+
 <?php wp_head(); ?>
 </head>
 

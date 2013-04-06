@@ -20,8 +20,8 @@ get_header(); ?>
     <?php $temp_query = $wp_query; ?>
 	<?php query_posts('category_name=Portfolio'); ?>
 	<?php while (have_posts()) : the_post(); ?>	
-      <li><a href="#<?php the_title(); ?>" data-toggle="modal"><?php the_post_thumbnail('small'); ?></a><br />
-	  <a href="#<?php the_permalink() ?>" data-toggle="modal"><?php the_title(); ?></a>
+      <li><a href="#<?php the_ID(); ?>" data-toggle="modal"><?php the_post_thumbnail('small'); ?></a><br />
+	  <a href="#<?php the_ID(); ?>" data-toggle="modal"><?php the_title(); ?></a>
       </li>
 	<?php endwhile; ?>
     </ul>
@@ -31,10 +31,10 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>	
 
 <!-- Modal -->
-<div id="<?php the_title(); ?>" class="modal hide fade" tabindex="-1" role="dialog">
+<div id="<?php the_ID(); ?>" class="modal hide fade" tabindex="-1" role="dialog">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 class="blue" id="myModalLabel"></h3>
+    <h3 class="blue" id="myModalLabel"><?php the_title(); ?></h3>
   </div>
   <div class="modal-body">
 	<?php the_content(); ?>

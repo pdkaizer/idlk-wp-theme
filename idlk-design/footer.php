@@ -11,7 +11,12 @@
 
   <footer class="row">
      <div class="span3"><p style=margin-top:4px;>&copy; 2013 Izzy Kaizer</p></div>
-     <div class="span2 offset6"><a href="http://www.linkedin.com/pub/izzy-kaizer/65/78b/580"><img src="<?php bloginfo('template_url'); ?>/images/linkedin-32x32.png" alt="Find me on LinkedIn"></a> <a href="http://twitter.com/izzy42290"><img src="<?php bloginfo('template_url'); ?>/images/twitter-32x32.png" alt="Find me on Twitter" style="margin-left:20px;"></a></div>
+
+      <div class="span3 offset5 social">
+
+     	 <a href="http://www.linkedin.com/pub/izzy-kaizer/65/78b/580"><div class="genericon genericon-linkedin-alt"></div></a> &nbsp;&nbsp; <a href="http://pinterest.com/izzy42290/"><div class="genericon genericon-pinterest-alt"></div></a>  &nbsp;&nbsp; <a href="http://twitter.com/izzy42290"><div class="genericon genericon-twitter"></div></a>  &nbsp;&nbsp; <a href="http://dribbble.com/izzy42290"><div class="genericon genericon-dribbble"></div></a> 
+     </div>
+     
   </footer>
 
 
